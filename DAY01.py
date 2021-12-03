@@ -1,3 +1,7 @@
+#   DAY01.py
+#   Written by Selene R. Schmittling
+#   December 2, 2021
+
 #   Import Statements
 import numpy as np
 

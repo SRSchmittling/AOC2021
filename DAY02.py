@@ -1,3 +1,7 @@
+#   DAY02.py
+#   Written by Selene R. Schmittling
+#   December 2, 2021
+
 #   Import Statements
 import pandas as pd
 LOGGING = True

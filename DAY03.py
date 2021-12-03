@@ -1,3 +1,7 @@
+#   DAY03.py
+#   Written by Selene R. Schmittling
+#   December 3, 2021
+
 #   Import Statements
 import pandas as pd
 
