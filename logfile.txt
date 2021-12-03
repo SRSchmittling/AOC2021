@@ -1,0 +1,10 @@
+PART 1 
+ ********************
+
+Threshold: 500.0
+Final Counts: [479, 480, 498, 491, 521, 497, 514, 512, 499, 493, 484, 509]
+Gamma String: 000010110001
+Epsilon String: 111101001110
+Gamma Value: 177
+Epsilon Value: 3918
+Power Consumption: 693486
