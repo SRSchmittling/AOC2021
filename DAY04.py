@@ -1,6 +1,6 @@
-#   DAY99.py
+#   DAY04.py
 #   Written by Selene R. Schmittling
-#   [DATE]
+#   December 3, 2021
 
 #   Import Statements
 import pandas as pd
@@ -29,7 +29,7 @@ def main():
         logf = open('logfile.txt','w')
     else:
         logf = ""
-    data = getdata('data/DAY99.txt',sep=" ")
+    data = getdata('data/DAY04.txt',sep=" ")
     print("In main")
     
 
