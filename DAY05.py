@@ -1,6 +1,6 @@
-#   DAY99.py
+#   DAY05.py
 #   Written by Selene R. Schmittling
-#   [DATE]
+#   December 11, 2021
 
 #   Import Statements
 import pandas as pd
@@ -10,11 +10,13 @@ LOGGING = True
 
 #   Utility Functions
 def getdata(ifile):
-    indata = pd.read_csv(ifile, sep=" ", header=False)
-    # Add code to process data
     with open(ifile) as f:
         for line in f:
-            print(line)
+            line = line.split(sep="->")
+            for l in line:
+                l = l.split(sep=",")
+                print(l)
+    # Add code to process data
 
 def part1(data, logf):
     if LOGGING:
@@ -32,7 +34,7 @@ def main():
         logf = open('logfile.txt','w')
     else:
         logf = ""
-    data = getdata('data/DAY99.txt',sep=" ")
+    data = getdata('data/DAY05.txt')
     print("In main")
     
 
